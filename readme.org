@@ -1,0 +1,13 @@
+* A Multithreaded Rust Demo
+
+An example of a fake game, with an expensive calculation that can be
+pushed off to another thread.
+
+There will be a blog post to explain this better, coming soon on
+[[https://www.worthe-it.co.za]].
+
+* Acknowledgements
+
+This example is based on a Piston game engine tutorial written by
+TyOverby <ty@pre-alpha.com> and Nikita Pekin <contact@nikitapek.in>
+([[https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started]])
