@@ -6,6 +6,24 @@ pushed off to another thread.
 There will be a blog post to explain this better, coming soon on
 [[https://www.worthe-it.co.za]].
 
+* Running
+
+This demo shows two cases, one that uses threading for an 'expensive'
+calculation and one that does now.
+
+The version without threading can be run with 
+
+#+BEGIN_SRC sh
+cargo run --bin no-thread
+#+END_SRC
+
+The version that does uses threads, and communicates its results back
+to the parent thread with a channel, can be run with
+
+#+BEGIN_SRC sh
+cargo run --bin channels
+#+END_SRC
+
 * Acknowledgements
 
 This example is based on a Piston game engine tutorial written by
